@@ -2,7 +2,7 @@ package com.lighterletter.www.thelist.exercise.structures;
 
 
 /**
- *
+ * A granular structure to hold an arbitrary type of data.
  */
 
 public class Node<T> {
