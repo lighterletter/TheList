@@ -17,8 +17,7 @@ import com.lighterletter.www.thelist.numbers.list.NumberLinkedList;
 /**
  * This class uses data-binding to access references to its layout
  * <p>
- * To access data-binding capabilities in the IDE you must enable them in app:gradle and surround your main layout with <layout></layout>
- * When you sync the project android studio will auto-generate the a binding class based on your layout name which will give you access to your views.
+     * `11 on your layout name which will give you access to your views.
  * <p>
  * This class does not make full use of binding as to not confuse new readers.
  * For more reading go to: https://developer.android.com/topic/libraries/data-binding/index.html
@@ -31,6 +30,7 @@ import com.lighterletter.www.thelist.numbers.list.NumberLinkedList;
 public class NumberMainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ActivityNumberBinding bind;
+
     private NumberLinkedList list = new NumberLinkedList();
 
     @Override
